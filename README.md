@@ -18,4 +18,4 @@ el trigger movimiento_BEFORE_INSERT, respalda el saldo en la tabla movimiento
 
 #actualizar saldo de la tabla cliente sea ingreso o egreso, o negativo o positivo
 
-el trigger movimiento_AFTER_INSERT, registra el tipo de movimiento el monto y la fecha y actualiza el saldo en la tabla cliente
+el trigger movimiento_AFTER_INSERT, registra el tipo de movimiento el monto y la fecha y actualiza el saldo en la tabla cuenta
